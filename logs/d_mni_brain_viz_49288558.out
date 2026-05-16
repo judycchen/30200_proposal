@@ -1,0 +1,36 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 3 (9.14.0.2286388) 64-bit (glnxa64)
+                                May 25, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Loading Standard_Channels.txt...
+Standard channels: 42 (expected 42)
+Loading correlation results from: /project/ycleong/users/judycchen/prediction-proj/data/c_fnirs-fmri-corr/fnirs_fmri_corr.mat
+r values loaded: 42 channels
+Significant channels: 1
+Mean r: 0.0985 | Median r: 0.1194
+
+Generating brain map — all channels (unthresholded)...
+/project/ycleong/users/judycchen/prediction-proj/data/c_fnirs-fmri-corr/figures/fnirs_fmri_corr.img.img/hdr are saved.
+Please cite:
+Xia M, Wang J, He Y (2013) BrainNet Viewer: A Network Visualization Tool for Human Brain Connectomics. PLoS ONE 8: e68910.
+An example:
+'The brain networks were visualized with the BrainNet Viewer (http://www.nitrc.org/projects/bnv/) (Xia et al., 2013)'.
+Saved: /project/ycleong/users/judycchen/prediction-proj/data/c_fnirs-fmri-corr/figures/fnirs_fmri_corr.jpg
+
+Generating brain map — FDR-thresholded...
+/project/ycleong/users/judycchen/prediction-proj/data/c_fnirs-fmri-corr/figures/fnirs_fmri_corr_pmasked.img.img/hdr are saved.
+Please cite:
+Xia M, Wang J, He Y (2013) BrainNet Viewer: A Network Visualization Tool for Human Brain Connectomics. PLoS ONE 8: e68910.
+An example:
+'The brain networks were visualized with the BrainNet Viewer (http://www.nitrc.org/projects/bnv/) (Xia et al., 2013)'.
+Saved: /project/ycleong/users/judycchen/prediction-proj/data/c_fnirs-fmri-corr/figures/fnirs_fmri_corr_pmasked.jpg
+
+Done: d_mni_brain_viz.m
+Figures saved to: /project/ycleong/users/judycchen/prediction-proj/data/c_fnirs-fmri-corr/figures
+Thank you for using BrainNet Viewer!

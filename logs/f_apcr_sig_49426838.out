@@ -1,0 +1,55 @@
+============================================================
+Loading model outputs
+============================================================
+grp-grp r shape    : (122,)
+Predicted shape    : (122, 886)
+True fMRI shape    : (122, 886)
+Per-subject fMRI   : (886, 122, 59)
+
+============================================================
+Phase-randomization permutation test (1000 iters)
+============================================================
+  ROI 20/122...
+  ROI 40/122...
+  ROI 60/122...
+  ROI 80/122...
+  ROI 100/122...
+  ROI 120/122...
+Permutation complete.
+
+============================================================
+FDR correction (fdr_bh)
+============================================================
+grp_grp_corr: 0 ROI has corrected pval greater than raw pval.
+Significant ROIs (FDR q<0.05): 0/122
+Significant ROI indices: []
+Median r (all ROIs):     0.0524
+No significant ROIs.
+
+============================================================
+Computing Proportion of Noise Ceiling (PNC)
+============================================================
+Median PNC (all ROIs):  0.0630
+Mean PNC (all ROIs):    0.0683
+
+============================================================
+Saving results
+============================================================
+Saved: apcr_significance.mat
+Saved: apcr_summary.csv
+
+Top 10 ROIs by r:
+ roi  pearson_r  q_fdr  significant    pnc
+  59     0.2637 0.1828            0 0.2724
+   2     0.2446 0.1828            0 0.2527
+  11     0.2157 0.1828            0 0.2271
+  88     0.2028 0.1828            0 0.3224
+  30     0.2010 0.1828            0 0.2881
+  68     0.1994 0.2285            0 0.2143
+  28     0.1920 0.1828            0 0.2592
+  48     0.1910 0.2285            0 0.2417
+  41     0.1847 0.2316            0 0.2486
+  60     0.1808 0.2285            0 0.1921
+
+All outputs in: /project/ycleong/users/judycchen/prediction-proj/data/d_apcr-model_frontal
+Done: f_apcr_significance.py

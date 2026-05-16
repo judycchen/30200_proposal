@@ -1,0 +1,349 @@
+============================================================
+STEP 1: Discovering errts files
+============================================================
+Found 59 errts files:
+
+  errts.1002.01.avNW.01.tproject.nii
+  errts.1003.02.avNW.01.tproject.nii
+  errts.1005.02.avNW.01.tproject.nii
+  errts.1006.01.avNW.01.tproject.nii
+  errts.1007.02.avNW.01.tproject.nii
+  errts.1008.01.avNW.01.tproject.nii
+  errts.1009.02.avNW.01.tproject.nii
+  errts.1010.01.avNW.01.tproject.nii
+  errts.1011.02.avNW.01.tproject.nii
+  errts.1012.01.avNW.01.tproject.nii
+  errts.1013.02.avNW.01.tproject.nii
+  errts.1014.01.avNW.01.tproject.nii
+  errts.1015.02.avNW.01.tproject.nii
+  errts.1016.01.avNW.01.tproject.nii
+  errts.1017.02.avNW.01.tproject.nii
+  errts.1018.01.avNW.01.tproject.nii
+  errts.1020.01.avNW.01.tproject.nii
+  errts.1021.02.avNW.01.tproject.nii
+  errts.1022.01.avNW.01.tproject.nii
+  errts.1023.02.avNW.01.tproject.nii
+  errts.1024.01.avNW.01.tproject.nii
+  errts.1025.02.avNW.01.tproject.nii
+  errts.1026.01.avNW.01.tproject.nii
+  errts.1027.02.avNW.01.tproject.nii
+  errts.1028.01.avNW.01.tproject.nii
+  errts.1029.02.avNW.01.tproject.nii
+  errts.1030.01.avNW.01.tproject.nii
+  errts.1031.02.avNW.01.tproject.nii
+  errts.1032.01.avNW.01.tproject.nii
+  errts.1033.02.avNW.01.tproject.nii
+  errts.1034.01.avNW.01.tproject.nii
+  errts.1035.02.avNW.01.tproject.nii
+  errts.1036.01.avNW.01.tproject.nii
+  errts.1037.02.avNW.01.tproject.nii
+  errts.1038.01.avNW.01.tproject.nii
+  errts.1039.02.avNW.01.tproject.nii
+  errts.1040.01.avNW.01.tproject.nii
+  errts.1041.02.avNW.01.tproject.nii
+  errts.1042.01.avNW.01.tproject.nii
+  errts.1043.02.avNW.01.tproject.nii
+  errts.1044.01.avNW.01.tproject.nii
+  errts.1045.02.avNW.01.tproject.nii
+  errts.1046.01.avNW.01.tproject.nii
+  errts.1047.02.avNW.01.tproject.nii
+  errts.1048.01.avNW.01.tproject.nii
+  errts.1049.02.avNW.01.tproject.nii
+  errts.1050.01.avNW.01.tproject.nii
+  errts.1051.02.avNW.01.tproject.nii
+  errts.1052.01.avNW.01.tproject.nii
+  errts.1053.02.avNW.01.tproject.nii
+  errts.1054.01.avNW.01.tproject.nii
+  errts.1055.02.avNW.01.tproject.nii
+  errts.1056.01.avNW.01.tproject.nii
+  errts.1057.02.avNW.01.tproject.nii
+  errts.1058.01.avNW.01.tproject.nii
+  errts.1059.02.avNW.01.tproject.nii
+  errts.1060.01.avNW.01.tproject.nii
+  errts.1061.02.avNW.01.tproject.nii
+  errts.1062.01.avNW.01.tproject.nii
+
+============================================================
+STEP 2: Inspecting first file to get BOLD space
+============================================================
+File       : errts.1002.01.avNW.01.tproject.nii
+Shape      : (73, 87, 73, 948)  (x, y, z, timepoints)
+Voxel size : [2.5 2.5 2.5] mm
+Affine     :
+[[   2.5   -0.    -0.   -90. ]
+ [  -0.     2.5   -0.  -125.5]
+ [   0.     0.     2.5  -72. ]
+ [   0.     0.     0.     1. ]]
+
+Expected total T : 949
+Actual total T   : 948
+
+*** WARNING: T=948 differs from expected 949 by -1 volumes. ***
+   Proceeding with crop to first 886 volumes regardless.
+
+============================================================
+STEP 3: Resampling atlas to BOLD space (nearest-neighbor)
+============================================================
+Atlas original shape  : (91, 109, 91)
+Atlas original voxels : [2. 2. 2.] mm
+Atlas resampled shape : (73, 87, 73)
+Atlas resampled voxels: [2.5 2.5 2.5] mm  (matches BOLD)
+ROI labels found      : 122 (expected 122)
+Saved to: /project/ycleong/users/judycchen/prediction-proj/data/a_fmri-roi-ts/atlas_122_resampled.nii.gz
+
+============================================================
+STEP 4: Extracting ROI time series per subject
+============================================================
+
+  errts.1002.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1003.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1005.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1006.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1007.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1008.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1009.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1010.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1011.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1012.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1013.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1014.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1015.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1016.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1017.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1018.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1020.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1021.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1022.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1023.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1024.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1025.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1026.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1027.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1028.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1029.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1030.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1031.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1032.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1033.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1034.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1035.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1036.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1037.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1038.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1039.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1040.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1041.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1042.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1043.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1044.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1045.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1046.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1047.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1048.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1049.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1050.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1051.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1052.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1053.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1054.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1055.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1056.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1057.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1058.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1059.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1060.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1061.02.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+  errts.1062.01.avNW.01.tproject.nii
+    Original T = 948 volumes  *** T=948 differs from expected 949 by -1 vol ***  →  cropped to 886
+    ROI matrix shape: (886, 122)  (timepoints × ROIs)  [z-scored]
+
+============================================================
+STEP 5: Stacking subjects and saving outputs
+============================================================
+bold_TxRxS shape   : (886, 122, 59)  (timepoints × ROIs × subjects)
+Group mean shape   : (886, 122)
+Subjects included  : 59
+Subjects flagged   : 59
+
+Outputs saved to: /project/ycleong/users/judycchen/prediction-proj/data/a_fmri-roi-ts
+  bold_TxRxS.npy
+  bold_groupmean_TxR.npy
+  atlas_122_resampled.nii.gz
+  subject_list.txt
+  flagged_subjects.txt
+
+Done.

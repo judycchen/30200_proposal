@@ -1,0 +1,123 @@
+Label Name,Network Name,Full Component Name,Abbv.
+17Networks_LH_VisCent_Striate,central visual  ,striate cortex,VIS
+17Networks_LH_VisCent_ExStr,central visual,extrastriate cortex,VIS
+17Networks_LH_VisPeri_StriCal,peripheral visual ,striate calcarine,VIS
+17Networks_LH_VisPeri_ExStrInf,peripheral visual,extra-striate inferior,VIS
+17Networks_LH_VisPeri_ExStrSup,peripheral visual,extra-striate superior,VIS
+17Networks_LH_SomMotA,somatomotor A,somatomotor A,SM
+17Networks_LH_SomMotB_Cent,somatomotor B,central ,SM
+17Networks_LH_SomMotB_S2,somatomotor B,S2,SM
+17Networks_LH_SomMotB_Ins,somatomotor B,insula,SM
+17Networks_LH_SomMotB_Aud,somatomotor B,auditory,SM
+17Networks_LH_DorsAttnA_TempOcc,dorsal attention A,temporal occipital,DAN
+17Networks_LH_DorsAttnA_ParOcc,dorsal attention A,parietal occipital,DAN
+17Networks_LH_DorsAttnA_SPL,dorsal attention A,superior parietal lobule,DAN
+17Networks_LH_DorsAttnB_TempOcc,dorsal attention B,temporal occipital,DAN
+17Networks_LH_DorsAttnB_PostC,dorsal attention B,post central,DAN
+17Networks_LH_DorsAttnB_FEF,dorsal attention B,frontal eye fields,DAN
+17Networks_LH_DorsAttnB_PrCv,dorsal attention B,precentral ventral,DAN
+17Networks_LH_SalVentAttnA_ParOper,salience / ventral attention A,parietal operculum,VAN
+17Networks_LH_SalVentAttnA_FrOper,salience / ventral attention A,frontal operculum ,VAN
+17Networks_LH_SalVentAttnA_Ins,salience / ventral attention A,insula,VAN
+17Networks_LH_SalVentAttnA_ParMed,salience / ventral attention A,parietal medial,VAN
+17Networks_LH_SalVentAttnA_FrMed,salience / ventral attention A,frontal medial,VAN
+17Networks_LH_SalVentAttnB_IPL,salience / ventral attention B,inferior parietal lobule,VAN
+17Networks_LH_SalVentAttnB_PFCd,salience / ventral attention B,dorsal prefrontal cortex,VAN
+17Networks_LH_SalVentAttnB_PFCl,salience / ventral attention B,lateral prefrontal cortex,VAN
+17Networks_LH_SalVentAttnB_Ins,salience / ventral attention B,insula,VAN
+17Networks_LH_SalVentAttnB_OFC,salience / ventral attention B,orbital frontal cortex,VAN
+17Networks_LH_SalVentAttnB_PFCmp,salience / ventral attention B, medial posterior prefrontal cortex,VAN
+17Networks_LH_LimbicA_TempPole,limbic A,temporal pole,LIMB
+17Networks_LH_LimbicB_OFC,limbic B,orbital frontal cortex,LIMB
+17Networks_LH_ContA_Temp,control A,temporal,CONT
+17Networks_LH_ContA_IPS,control A,intraparietal sulcus,CONT
+17Networks_LH_ContA_PFCd,control A,dorsal prefrontal cortex,CONT
+17Networks_LH_ContA_PFCl,control A,lateral prefrontal cortex,CONT
+17Networks_LH_ContA_PFClv,control A,lateral ventral prefrontal cortex,CONT
+17Networks_LH_ContA_Cingm,control A,mid-cingulate,CONT
+17Networks_LH_ContB_Temp,control B,temporal,CONT
+17Networks_LH_ContB_IPL,control B,inferior parietal lobule,CONT
+17Networks_LH_ContB_PFCd,control B ,dorsal prefrontal cortex,CONT
+17Networks_LH_ContB_PFCl,control B,lateral prefrontal cortex,CONT
+17Networks_LH_ContB_PFClv,control B,lateral ventral prefrontal cortex,CONT
+17Networks_LH_ContB_PFCmp,control B ,medial posterior prefrontal cortex,CONT
+17Networks_LH_ContC_pCun,control C,precuneus,CONT
+17Networks_LH_ContC_Cingp,control C,cingulate posterior,CONT
+17Networks_LH_DefaultA_IPL,default A,inferior parietal lobule,DMN
+17Networks_LH_DefaultA_PFCd,default A,dorsal prefrontal cortex,DMN
+17Networks_LH_DefaultA_pCunPCC,default A,precuneus posterior cingulate cortex,DMN
+17Networks_LH_DefaultA_PFCm,default A,medial prefrontal cortex,DMN
+17Networks_LH_DefaultB_Temp,default B,temporal,DMN
+17Networks_LH_DefaultB_IPL,default B,inferior parietal lobule,DMN
+17Networks_LH_DefaultB_PFCd,default B,dorsal prefrontal cortex,DMN
+17Networks_LH_DefaultB_PFCl,default B,lateral prefrontal cortex,DMN
+17Networks_LH_DefaultB_PFCv,default B,ventral prefrontal cortex,DMN
+17Networks_LH_DefaultC_IPL,default C,inferior parietal lobule,DMN
+17Networks_LH_DefaultC_Rsp,default C,retrosplenial ,DMN
+17Networks_LH_DefaultC_PHC,default C,parahippocampal cortex,DMN
+17Networks_LH_TempPar,temporal parietal,temporal parietal,DMN
+17Networks_RH_VisCent_Striate,central visual,striate cortex,VIS
+17Networks_RH_VisCent_ExStr,central visual,extrastriate cortex,VIS
+17Networks_RH_VisPeri_StriCal,peripheral visual,striate calcarine,VIS
+17Networks_RH_VisPeri_ExStrInf,peripheral visual,extra-striate inferior,VIS
+17Networks_RH_VisPeri_ExStrSup,peripheral visual,extra-striate superior,VIS
+17Networks_RH_SomMotA,somatomotor A,somatomotor A,SM
+17Networks_RH_SomMotB_Cent,somatomotor B,central ,SM
+17Networks_RH_SomMotB_S2,somatomotor B,S2,SM
+17Networks_RH_SomMotB_Ins,somatomotor B,insula,SM
+17Networks_RH_SomMotB_Aud,somatomotor B,auditory,SM
+17Networks_RH_DorsAttnA_TempOcc,dorsal attention A,temporal occipital,DAN
+17Networks_RH_DorsAttnA_ParOcc,dorsal attention A,parietal occipital,DAN
+17Networks_RH_DorsAttnA_SPL,dorsal attention A,superior parietal lobule,DAN
+17Networks_RH_DorsAttnB_TempOcc,dorsal attention B,temporal occipital,DAN
+17Networks_RH_DorsAttnB_PostC,dorsal attention B,post central,DAN
+17Networks_RH_DorsAttnB_FEF,dorsal attention B,frontal eye fields,DAN
+17Networks_RH_DorsAttnB_PrCv,dorsal attention B,precentral ventral,DAN
+17Networks_RH_SalVentAttnA_ParOper,salience / ventral attention A,parietal operculum,VAN
+17Networks_RH_SalVentAttnA_PrC,salience / ventral attention A,precentral ,VAN
+17Networks_RH_SalVentAttnA_FrOper,salience / ventral attention A,frontal operculum ,VAN
+17Networks_RH_SalVentAttnA_Ins,salience / ventral attention A,insula,VAN
+17Networks_RH_SalVentAttnA_ParMed,salience / ventral attention A,parietal medial,VAN
+17Networks_RH_SalVentAttnA_FrMed,salience / ventral attention A,frontal medial,VAN
+17Networks_RH_SalVentAttnB_IPL,salience / ventral attention B,inferior parietal lobule,VAN
+17Networks_RH_SalVentAttnB_PFCd,salience / ventral attention B,dorsal prefrontal cortex,VAN
+17Networks_RH_SalVentAttnB_PFCl,salience / ventral attention B,lateral prefrontal cortex,VAN
+17Networks_RH_SalVentAttnB_PFClv,salience / ventral attention B,lateral ventral prefrontal cortex,VAN
+17Networks_RH_SalVentAttnB_Ins,salience / ventral attention B,insula,VAN
+17Networks_RH_SalVentAttnB_PFCmp,salience / ventral attention B,medial posterior prefrontal cortex,VAN
+17Networks_RH_SalVentAttnB_Cinga,salience / ventral attention B,cingulate anterior,VAN
+17Networks_RH_LimbicA_TempPole,limbic A,temporal pole,LIMB
+17Networks_RH_LimbicB_OFC,limbic B,orbital frontal cortex,LIMB
+17Networks_RH_ContA_Temp,control A,temporal,CONT
+17Networks_RH_ContA_IPS,control A,intraparietal sulcus,CONT
+17Networks_RH_ContA_PFCd,control A,dorsal prefrontal cortex,CONT
+17Networks_RH_ContA_PFCl,control A,lateral prefrontal cortex,CONT
+17Networks_RH_ContA_Cingm,control A,mid-cingulate,CONT
+17Networks_RH_ContB_Temp,control B,temporal,CONT
+17Networks_RH_ContB_IPL,control B,inferior parietal lobule,CONT
+17Networks_RH_ContB_PFCld,control B,lateral dorsal prefrontal cortex,CONT
+17Networks_RH_ContB_PFClv,control B,lateral ventral prefrontal cortex,CONT
+17Networks_RH_ContB_PFCmp,control B,medial posterior prefrontal cortex,CONT
+17Networks_RH_ContC_pCun,control C,precuneus,CONT
+17Networks_RH_ContC_Cingp,control C,cingulate posterior,CONT
+17Networks_RH_DefaultA_Temp,default A,temporal,DMN
+17Networks_RH_DefaultA_IPL,default A,inferior parietal lobule,DMN
+17Networks_RH_DefaultA_PFCd,default A,dorsal prefrontal cortex,DMN
+17Networks_RH_DefaultA_pCunPCC,default A,precuneus posterior cingulate cortex,DMN
+17Networks_RH_DefaultA_PFCm,default A,medial prefrontal cortex,DMN
+17Networks_RH_DefaultB_Temp,default B,temporal,DMN
+17Networks_RH_DefaultB_AntTemp,default B,anterior temporal,DMN
+17Networks_RH_DefaultB_PFCd,default B,dorsal prefrontal cortex,DMN
+17Networks_RH_DefaultB_PFCv,default B,ventral prefrontal cortex,DMN
+17Networks_RH_DefaultC_IPL,default C,inferior parietal lobule,DMN
+17Networks_RH_DefaultC_Rsp,default C,retrosplenial ,DMN
+17Networks_RH_DefaultC_PHC,default C,parahippocampal cortex,DMN
+17Networks_RH_TempPar,temporal parietal,temporal parietal,DMN
+subcortical,subcortical,left amygdala,SUBC
+subcortical,subcortical,left hippocampus,SUBC
+subcortical,subcortical,left basal ganglia,SUBC
+subcortical,subcortical,left thalamus,SUBC
+subcortical,subcortical,right amygdala,SUBC
+subcortical,subcortical,right hippocampus,SUBC
+subcortical,subcortical,right basal ganglia,SUBC
+subcortical,subcortical,right thalamus,SUBC

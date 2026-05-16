@@ -1,0 +1,58 @@
+============================================================
+Loading model outputs
+============================================================
+grp-grp r shape    : (122,)
+Predicted shape    : (122, 886)
+True fMRI shape    : (122, 886)
+Per-subject fMRI   : (886, 122, 59)
+
+============================================================
+Phase-randomization permutation test (1000 iters)
+============================================================
+  ROI 20/122...
+  ROI 40/122...
+  ROI 60/122...
+  ROI 80/122...
+  ROI 100/122...
+  ROI 120/122...
+Permutation complete.
+
+============================================================
+FDR correction (fdr_bh)
+============================================================
+grp_grp_corr: 0 ROI has corrected pval greater than raw pval.
+Significant ROIs (FDR q<0.05): 37/122
+Significant ROI indices: [  2   7  10  11  12  14  18  23  28  30  38  41  44  48  49  52  57  59
+  60  65  67  68  69  71  75  81  84  88  89  93  95  96 101 108 111 114
+ 119]
+Median r (all ROIs):     0.1169
+Median r (sig ROIs):     0.2243
+
+============================================================
+Computing Proportion of Noise Ceiling (PNC)
+============================================================
+Median PNC (all ROIs):  0.1526
+Mean PNC (all ROIs):    0.1463
+Median PNC (sig ROIs):  0.2651
+
+============================================================
+Saving results
+============================================================
+Saved: apcr_significance.mat
+Saved: apcr_summary.csv
+
+Top 10 ROIs by r:
+ roi  pearson_r  q_fdr  significant    pnc
+  48     0.3186 0.0287            1 0.4032
+  81     0.2990 0.0244            1 0.3374
+  59     0.2881 0.0287            1 0.2976
+   2     0.2734 0.0244            1 0.2825
+  30     0.2723 0.0244            1 0.3904
+  49     0.2714 0.0244            1 0.3106
+  14     0.2631 0.0244            1 0.2759
+  71     0.2625 0.0321            1 0.2763
+  11     0.2603 0.0287            1 0.2742
+ 114     0.2586 0.0244            1 0.2670
+
+All outputs in: /project/ycleong/users/judycchen/prediction-proj/data/d_apcr-model
+Done: f_apcr_significance.py

@@ -1,0 +1,107 @@
+============================================================
+Loading data
+============================================================
+fNIRS shape (after drop): (886, 42, 15)  (T x channels x subjects)
+fMRI shape             : (886, 122, 59)  (T x ROIs x subjects)
+fMRI group mean shape  : (886, 122)
+
+fNIRS subjects: 15 | fMRI subjects: 59 | T: 886 | ROIs: 122
+
+Estimated PCs (90% var): fNIRS=25, fMRI=66
+
+============================================================
+LOO cross-validation (15 iterations)
+============================================================
+
+--- LOO 1/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 2/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 3/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 4/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 5/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 6/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 7/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 8/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 9/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 10/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=26, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 11/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 12/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 13/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 14/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+--- LOO 15/15 ---
+  Train set: (731836, 42) fNIRS, (731836, 122) fMRI (14 × 59 = 826 pairs)
+  PCs: fNIRS=25, fMRI=66
+  Predicted shape: (886, 122)
+
+PCs across LOO — fNIRS: mean=25.1, fMRI: mean=66.0
+
+============================================================
+Computing group-mean prediction and evaluating
+============================================================
+grp-grp: median r=0.0625, mean r=0.0735
+indvdl-grp: median r=0.0204, mean r=0.0232
+
+============================================================
+Saving outputs
+============================================================
+Saved nnw_pred_SxRxT.mat  : shape (15, 122, 886)
+Saved nnw_pred_RxT.mat    : shape (122, 886)
+Saved apcr_model_corr.mat
+
+All outputs in: /project/ycleong/users/judycchen/prediction-proj/data/d_apcr-model
+Done: e_apcr_model.py

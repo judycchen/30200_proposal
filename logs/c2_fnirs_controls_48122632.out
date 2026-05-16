@@ -1,0 +1,51 @@
+============================================================
+Loading data
+============================================================
+fNIRS group mean shape: (886, 42)
+fMRI group mean shape : (886, 122)
+
+============================================================
+Control: primary_auditory
+============================================================
+  Median r = -0.0247
+  Permutation — channel 10/42...
+  Permutation — channel 20/42...
+  Permutation — channel 30/42...
+  Permutation — channel 40/42...
+  Significant: 0/42 (FDR q<0.05)
+
+============================================================
+Control: primary_visual
+============================================================
+  Median r = -0.0755
+  Permutation — channel 10/42...
+  Permutation — channel 20/42...
+  Permutation — channel 30/42...
+  Permutation — channel 40/42...
+  Significant: 0/42 (FDR q<0.05)
+
+============================================================
+Control: global_grey_matter
+============================================================
+  Median r = 0.0134
+  Permutation — channel 10/42...
+  Permutation — channel 20/42...
+  Permutation — channel 30/42...
+  Permutation — channel 40/42...
+  Significant: 0/42 (FDR q<0.05)
+
+============================================================
+Saving results
+============================================================
+Saved: /project/ycleong/users/judycchen/prediction-proj/results/c_fnirs-fmri-corr/supp_table_s2_control_analysis.csv
+Control results appended to: /project/ycleong/users/judycchen/prediction-proj/data/c_fnirs-fmri-corr/fnirs_fmri_corr.mat
+
+Supp Table S2 summary:
+Control                     Median r    N sig
+---------------------------------------------
+primary_auditory             -0.0247        0/42
+primary_visual               -0.0755        0/42
+global_grey_matter            0.0134        0/42
+
+All outputs in: /project/ycleong/users/judycchen/prediction-proj/results/c_fnirs-fmri-corr
+Done: c2_fnirs_fmri_corr_controls.py

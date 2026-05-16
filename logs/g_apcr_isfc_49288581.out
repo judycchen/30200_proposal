@@ -1,0 +1,53 @@
+============================================================
+Loading data
+============================================================
+True fMRI shape     : (886, 122, 59)  (T x ROI x S)
+Predicted fMRI shape: (21, 122, 886)  (S x ROI x T)
+
+============================================================
+Computing ISFC — true fMRI
+============================================================
+True ISFC per-subject shape: (59, 122, 122)
+True ISFC mean shape       : (122, 122)
+True ISFC (tri-avg, diag removed) non-nan: 7381
+True ISFC NaN in lower triangle (excl diag): 0 / 7381
+
+============================================================
+Computing ISFC — predicted fMRI
+============================================================
+Pred ISFC per-subject shape: (21, 122, 122)
+Pred ISFC mean shape       : (122, 122)
+Pred ISFC NaN in lower triangle (excl diag): 0 / 7381
+
+============================================================
+Computing matrix similarity (Spearman)
+============================================================
+True ISFC vs Predicted ISFC Pearson r = 0.5523
+
+Permutation test (1000 iters, shuffling ROI labels)...
+  iter 200/1000...
+  iter 400/1000...
+  iter 600/1000...
+  iter 800/1000...
+  iter 1000/1000...
+Matrix similarity: r=0.5523, p=0.0010
+
+============================================================
+DIAGNOSTIC: predicted fMRI variance per ROI
+============================================================
+Predicted fMRI std per ROI — mean: 0.0287, min: 0.0082, max: 0.0662
+ROIs with std < 0.01: 4
+ROIs with std < 0.10: 122
+
+============================================================
+Saving results
+============================================================
+Saved: apcr_isfc.mat
+
+Summary:
+  True fMRI ISFC median  : 0.0233
+  Pred fMRI ISFC median  : 0.0031
+  Matrix similarity      : r=0.5523, p=0.0010
+
+All outputs in: /project/ycleong/users/judycchen/prediction-proj/data/d_apcr-model
+Done: g_apcr_isfc.py

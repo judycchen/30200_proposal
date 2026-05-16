@@ -1,0 +1,54 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 3 (9.14.0.2286388) 64-bit (glnxa64)
+                                May 25, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Loading atlas...
+Atlas shape: 73 x 87 x 73
+Loading significance results...
+Significant ROIs: 37/122
+
+--- Figure 3a: grp-grp r (FDR-thresholded) ---
+  NIfTI saved: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi/fig3a_grp_grp_r_pmasked.nii
+  Compressed: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi/fig3a_grp_grp_r_pmasked.nii.gz
+Please cite:
+Xia M, Wang J, He Y (2013) BrainNet Viewer: A Network Visualization Tool for Human Brain Connectomics. PLoS ONE 8: e68910.
+An example:
+'The brain networks were visualized with the BrainNet Viewer (http://www.nitrc.org/projects/bnv/) (Xia et al., 2013)'.
+  Figure saved: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi/fig3a_grp_grp_r_pmasked.jpg
+
+--- Supp Fig S1: PNC (FDR-thresholded) ---
+  NIfTI saved: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi/suppS1_pnc_pmasked.nii
+  Compressed: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi/suppS1_pnc_pmasked.nii.gz
+Please cite:
+Xia M, Wang J, He Y (2013) BrainNet Viewer: A Network Visualization Tool for Human Brain Connectomics. PLoS ONE 8: e68910.
+An example:
+'The brain networks were visualized with the BrainNet Viewer (http://www.nitrc.org/projects/bnv/) (Xia et al., 2013)'.
+  Figure saved: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi/suppS1_pnc_pmasked.jpg
+
+--- Supp Fig S2: ISC maps ---
+True ISC median: 0.1565
+Pred ISC median: 0.0618
+  NIfTI saved: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi/suppS2_true_isc.nii
+  Compressed: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi/suppS2_true_isc.nii.gz
+Please cite:
+Xia M, Wang J, He Y (2013) BrainNet Viewer: A Network Visualization Tool for Human Brain Connectomics. PLoS ONE 8: e68910.
+An example:
+'The brain networks were visualized with the BrainNet Viewer (http://www.nitrc.org/projects/bnv/) (Xia et al., 2013)'.
+  Figure saved: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi/suppS2_true_isc.jpg
+  NIfTI saved: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi/suppS2_pred_isc.nii
+  Compressed: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi/suppS2_pred_isc.nii.gz
+Please cite:
+Xia M, Wang J, He Y (2013) BrainNet Viewer: A Network Visualization Tool for Human Brain Connectomics. PLoS ONE 8: e68910.
+An example:
+'The brain networks were visualized with the BrainNet Viewer (http://www.nitrc.org/projects/bnv/) (Xia et al., 2013)'.
+  Figure saved: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi/suppS2_pred_isc.jpg
+
+Done: h_roi_brain_viz.m
+All outputs in: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/roi
+Thank you for using BrainNet Viewer!

@@ -1,0 +1,30 @@
+Loading ROI labels...
+Loading significance results...
+ROIs: 122 | Significant: 22
+Loading ISFC results...
+ISFC matrix similarity: r=0.530, p=0.001
+
+============================================================
+Figure 3b: Network bar plot
+============================================================
+network  median_r  n_sig  n_total
+    VIS  0.180778      5       10
+     SM  0.034610      0       10
+    DAN  0.173586      7       14
+    VAN  0.022966      2       24
+   LIMB  0.018956      0        4
+   CONT  0.090133      3       26
+    DMN  0.051307      3       26
+   SUBC  0.066245      2        8
+Saved: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/network/fig3b_network_barplot.jpg
+Saved: network_summary.csv
+
+============================================================
+Figure 4: ISFC heatmaps
+============================================================
+Saved: /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/isfc/fig4_isfc_heatmap.jpg
+
+Done: i_viz_network_isfc.py
+Outputs:
+  /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/network/fig3b_network_barplot.jpg
+  /project/ycleong/users/judycchen/prediction-proj/results/e_visualization/isfc/fig4_isfc_heatmap.jpg

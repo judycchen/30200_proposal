@@ -1,0 +1,23 @@
+{SWITCH expression must be a scalar or a character vector.
+
+Error in spm_create_vol>create_vol (line 78)
+switch ext
+
+Error in spm_create_vol (line 17)
+    v = create_vol(V(i));
+
+Error in spm_write_vol (line 83)
+V = spm_create_vol(V);
+
+Error in nirs2img (line 104)
+spm_write_vol(V, M);
+
+Error in nirs2jpg (line 19)
+nirs2img(strcat(outPath, outFilesName, '.img'),...    % imgFileName
+
+Error in d_mni_brain_viz (line 92)
+nirs2jpg(char(OUT_DIR + "/"), "fnirs_fmri_corr", ...
+
+Error in run (line 91)
+evalin('caller', strcat(script, ';'));
+} 

@@ -1,0 +1,57 @@
+============================================================
+Loading model outputs
+============================================================
+grp-grp r shape    : (122,)
+Predicted shape    : (122, 886)
+True fMRI shape    : (122, 886)
+Per-subject fMRI   : (886, 122, 59)
+
+============================================================
+Phase-randomization permutation test (1000 iters)
+============================================================
+  ROI 20/122...
+  ROI 40/122...
+  ROI 60/122...
+  ROI 80/122...
+  ROI 100/122...
+  ROI 120/122...
+Permutation complete.
+
+============================================================
+FDR correction (fdr_bh)
+============================================================
+grp_grp_corr: 0 ROI has corrected pval greater than raw pval.
+Significant ROIs (FDR q<0.05): 22/122
+Significant ROI indices: [  2   4  11  12  14  33  41  59  60  61  68  69  70  71  81  84  93 109
+ 110 111 121 122]
+Median r (all ROIs):     0.0625
+Median r (sig ROIs):     0.2201
+
+============================================================
+Computing Proportion of Noise Ceiling (PNC)
+============================================================
+Median PNC (all ROIs):  0.0717
+Mean PNC (all ROIs):    0.0871
+Median PNC (sig ROIs):  0.2511
+
+============================================================
+Saving results
+============================================================
+Saved: apcr_significance.mat
+Saved: apcr_summary.csv
+
+Top 10 ROIs by r:
+ roi  pearson_r  q_fdr  significant    pnc
+  11     0.3097 0.0174            1 0.3262
+  12     0.2965 0.0174            1 0.3097
+  71     0.2898 0.0174            1 0.3051
+  69     0.2827 0.0174            1 0.2927
+   2     0.2792 0.0174            1 0.2885
+  59     0.2754 0.0244            1 0.2845
+  68     0.2643 0.0174            1 0.2841
+  93     0.2608 0.0244            1 0.2989
+  14     0.2494 0.0244            1 0.2615
+ 121     0.2273 0.0271            1 0.3537
+
+All outputs in: /project/ycleong/users/judycchen/prediction-proj/data/d_apcr-model
+Done: f_apcr_significance.py

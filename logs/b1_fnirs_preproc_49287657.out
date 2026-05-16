@@ -1,0 +1,437 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 3 (9.14.0.2286388) 64-bit (glnxa64)
+                                May 25, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Params loaded. Task: CPTMEM2 (folder suffix: _005)
+Found 25 subject folders.
+
+--- p01 | Task CPTMEM2 ---
+  Loaded: 2018 samples @ 5.086 Hz (396.8 sec)
+  Using trigger file: 2026-01-30_005_fixed_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2018 (396.8 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p01_TxM.mat
+
+--- p02 | Task CPTMEM2 ---
+  Loaded: 1791 samples @ 5.086 Hz (352.1 sec)
+  Using trigger file: 2026-02-05_005_fixed_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:1791 (352.1 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p02_TxM.mat
+
+--- p03 | Task CPTMEM2 ---
+  Loaded: 2837 samples @ 5.086 Hz (557.8 sec)
+  Using trigger file: 2026-02-05_005_fixed_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2837 (557.8 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p03_TxM.mat
+  p04: no task _005 folder, skipping.
+
+--- p05 | Task CPTMEM2 ---
+  Loaded: 2452 samples @ 5.086 Hz (482.1 sec)
+  Using trigger file: 2026-02-06_013_fixed_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2452 (482.1 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p05_TxM.mat
+
+--- p06 | Task CPTMEM2 ---
+  Loaded: 2351 samples @ 5.086 Hz (462.2 sec)
+  Using trigger file: 2026-02-07_005_fixed_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2351 (462.2 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p06_TxM.mat
+
+--- p07 | Task CPTMEM2 ---
+  Loaded: 1637 samples @ 5.086 Hz (321.8 sec)
+  Using trigger file: 2026-02-08_005_fixed_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:1637 (321.8 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p07_TxM.mat
+
+--- p08 | Task CPTMEM2 ---
+  Loaded: 2910 samples @ 5.086 Hz (572.1 sec)
+  Using trigger file: 2026-02-08_005_fixed_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2910 (572.1 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p08_TxM.mat
+
+--- p09 | Task CPTMEM2 ---
+  Loaded: 3321 samples @ 5.086 Hz (652.9 sec)
+  Using trigger file: 2026-02-09_005_fixed_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:3321 (652.9 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p09_TxM.mat
+
+--- p10 | Task CPTMEM2 ---
+  Loaded: 2223 samples @ 5.086 Hz (437.1 sec)
+  Using trigger file: 2026-02-10_013_fixed_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2223 (437.1 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p10_TxM.mat
+
+--- p11 | Task CPTMEM2 ---
+  Loaded: 2293 samples @ 5.086 Hz (450.8 sec)
+  Using trigger file: 2026-02-11_016_fixed_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2293 (450.8 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p11_TxM.mat
+
+--- p12 | Task CPTMEM2 ---
+  Loaded: 2774 samples @ 5.086 Hz (545.4 sec)
+  Using trigger file: 2026-02-13_005_fixed_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2774 (545.4 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p12_TxM.mat
+
+--- p13 | Task CPTMEM2 ---
+  Loaded: 1410 samples @ 5.086 Hz (277.2 sec)
+  Using trigger file: 2026-02-19_006_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:1410 (277.2 sec)
+  WARNING: only 277.2 sec < 300 sec min, skipping.
+
+--- p14 | Task CPTMEM2 ---
+  Loaded: 1286 samples @ 5.086 Hz (252.8 sec)
+  Using trigger file: 2026-02-19_013_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:1286 (252.8 sec)
+  WARNING: only 252.8 sec < 300 sec min, skipping.
+
+--- p15 | Task CPTMEM2 ---
+  Loaded: 2600 samples @ 5.086 Hz (511.2 sec)
+  Using trigger file: 2026-02-20_005_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2600 (511.2 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p15_TxM.mat
+
+--- p16 | Task CPTMEM2 ---
+  Loaded: 2201 samples @ 5.086 Hz (432.7 sec)
+  Using trigger file: 2026-02-20_011_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2201 (432.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p16_TxM.mat
+
+--- p17 | Task CPTMEM2 ---
+  Loaded: 2566 samples @ 5.086 Hz (504.5 sec)
+  Using trigger file: 2026-02-22_005_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2566 (504.5 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p17_TxM.mat
+
+--- p18 | Task CPTMEM2 ---
+  Loaded: 2065 samples @ 5.086 Hz (406.0 sec)
+  Using trigger file: 2026-03-26_005_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2065 (406.0 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p18_TxM.mat
+
+--- p19 | Task CPTMEM2 ---
+  Loaded: 2387 samples @ 5.086 Hz (469.3 sec)
+  Using trigger file: 2026-03-26_005_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2387 (469.3 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p19_TxM.mat
+
+--- p20 | Task CPTMEM2 ---
+  Loaded: 2802 samples @ 5.086 Hz (550.9 sec)
+  Using trigger file: 2026-03-27_005_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2802 (550.9 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p20_TxM.mat
+
+--- p21 | Task CPTMEM2 ---
+  Loaded: 2975 samples @ 5.086 Hz (584.9 sec)
+  Using trigger file: 2026-03-29_005_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2975 (584.9 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p21_TxM.mat
+
+--- p22 | Task CPTMEM2 ---
+  Loaded: 2693 samples @ 5.086 Hz (529.5 sec)
+  Using trigger file: 2026-04-09_005_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2693 (529.5 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p22_TxM.mat
+
+--- p23 | Task CPTMEM2 ---
+  Loaded: 3381 samples @ 5.086 Hz (664.7 sec)
+  Using trigger file: 2026-04-13_005_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:3381 (664.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p23_TxM.mat
+
+--- p24 | Task CPTMEM2 ---
+  Loaded: 2635 samples @ 5.086 Hz (518.1 sec)
+  Using trigger file: 2026-04-19_005_lsl.tri
+  WARNING: No start trigger (val=1) found, using sample 1.
+  WARNING: No end trigger (val=2) found, using end of recording.
+  Extracted: samples 1:2635 (518.1 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_CPTMEM2_p24_TxM.mat
+  p25: no task _005 folder, skipping.
+
+Done: Section 2 [task=CPTMEM2]
+Found 21 files for task CPTMEM2
+
+all_CPTMEM2_p01_TxM.mat
+  SCR: 42 standard channels skipped (bad short channel neighbor)
+  Saved: all_CPTMEM2_p01_TxM.mat
+
+all_CPTMEM2_p02_TxM.mat
+  Saved: all_CPTMEM2_p02_TxM.mat
+
+all_CPTMEM2_p03_TxM.mat
+  Saved: all_CPTMEM2_p03_TxM.mat
+
+all_CPTMEM2_p05_TxM.mat
+  Saved: all_CPTMEM2_p05_TxM.mat
+
+all_CPTMEM2_p06_TxM.mat
+  Saved: all_CPTMEM2_p06_TxM.mat
+
+all_CPTMEM2_p07_TxM.mat
+  Saved: all_CPTMEM2_p07_TxM.mat
+
+all_CPTMEM2_p08_TxM.mat
+  Saved: all_CPTMEM2_p08_TxM.mat
+
+all_CPTMEM2_p09_TxM.mat
+  Saved: all_CPTMEM2_p09_TxM.mat
+
+all_CPTMEM2_p10_TxM.mat
+  Saved: all_CPTMEM2_p10_TxM.mat
+
+all_CPTMEM2_p11_TxM.mat
+  Saved: all_CPTMEM2_p11_TxM.mat
+
+all_CPTMEM2_p12_TxM.mat
+  Saved: all_CPTMEM2_p12_TxM.mat
+
+all_CPTMEM2_p15_TxM.mat
+  Saved: all_CPTMEM2_p15_TxM.mat
+
+all_CPTMEM2_p16_TxM.mat
+  Saved: all_CPTMEM2_p16_TxM.mat
+
+all_CPTMEM2_p17_TxM.mat
+  Saved: all_CPTMEM2_p17_TxM.mat
+
+all_CPTMEM2_p18_TxM.mat
+  Saved: all_CPTMEM2_p18_TxM.mat
+
+all_CPTMEM2_p19_TxM.mat
+  Saved: all_CPTMEM2_p19_TxM.mat
+
+all_CPTMEM2_p20_TxM.mat
+  Saved: all_CPTMEM2_p20_TxM.mat
+
+all_CPTMEM2_p21_TxM.mat
+  Saved: all_CPTMEM2_p21_TxM.mat
+
+all_CPTMEM2_p22_TxM.mat
+  Saved: all_CPTMEM2_p22_TxM.mat
+
+all_CPTMEM2_p23_TxM.mat
+  Saved: all_CPTMEM2_p23_TxM.mat
+
+all_CPTMEM2_p24_TxM.mat
+  Saved: all_CPTMEM2_p24_TxM.mat
+
+Done: Section 3 [task=CPTMEM2]
+Found 21 files for task CPTMEM2
+all_CPTMEM2_p01_TxM.mat
+  QA: 40/50 channels pass (raw), 40/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p01_noUncertain_TxR
+all_CPTMEM2_p02_TxM.mat
+  QA: 49/50 channels pass (raw), 49/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p02_noUncertain_TxR
+all_CPTMEM2_p03_TxM.mat
+  QA: 47/50 channels pass (raw), 47/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p03_noUncertain_TxR
+all_CPTMEM2_p05_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p05_noUncertain_TxR
+all_CPTMEM2_p06_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p06_noUncertain_TxR
+all_CPTMEM2_p07_TxM.mat
+  QA: 49/50 channels pass (raw), 49/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p07_noUncertain_TxR
+all_CPTMEM2_p08_TxM.mat
+  QA: 49/50 channels pass (raw), 49/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p08_noUncertain_TxR
+all_CPTMEM2_p09_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p09_noUncertain_TxR
+all_CPTMEM2_p10_TxM.mat
+  QA: 47/50 channels pass (raw), 47/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p10_noUncertain_TxR
+all_CPTMEM2_p11_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p11_noUncertain_TxR
+all_CPTMEM2_p12_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p12_noUncertain_TxR
+all_CPTMEM2_p15_TxM.mat
+  QA: 49/50 channels pass (raw), 49/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p15_noUncertain_TxR
+all_CPTMEM2_p16_TxM.mat
+  QA: 48/50 channels pass (raw), 48/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p16_noUncertain_TxR
+all_CPTMEM2_p17_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p17_noUncertain_TxR
+all_CPTMEM2_p18_TxM.mat
+  QA: 49/50 channels pass (raw), 49/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p18_noUncertain_TxR
+all_CPTMEM2_p19_TxM.mat
+  QA: 48/50 channels pass (raw), 48/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p19_noUncertain_TxR
+all_CPTMEM2_p20_TxM.mat
+  QA: 49/50 channels pass (raw), 49/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p20_noUncertain_TxR
+all_CPTMEM2_p21_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p21_noUncertain_TxR
+all_CPTMEM2_p22_TxM.mat
+  QA: 47/50 channels pass (raw), 47/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p22_noUncertain_TxR
+all_CPTMEM2_p23_TxM.mat
+  QA: 49/50 channels pass (raw), 49/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p23_noUncertain_TxR
+all_CPTMEM2_p24_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_CPTMEM2_p24_noUncertain_TxR
+
+Done: Section 4 [task=CPTMEM2]
+Found 21 files for task CPTMEM2
+all_CPTMEM2_p01_noUncertain_TxR.mat
+  p01: 2018 samples -> 397 samples (6.6 min)
+all_CPTMEM2_p02_noUncertain_TxR.mat
+  p02: 1791 samples -> 352 samples (5.9 min)
+all_CPTMEM2_p03_noUncertain_TxR.mat
+  p03: 2837 samples -> 558 samples (9.3 min)
+all_CPTMEM2_p05_noUncertain_TxR.mat
+  p05: 2452 samples -> 482 samples (8.0 min)
+all_CPTMEM2_p06_noUncertain_TxR.mat
+  p06: 2351 samples -> 462 samples (7.7 min)
+all_CPTMEM2_p07_noUncertain_TxR.mat
+  p07: 1637 samples -> 322 samples (5.4 min)
+all_CPTMEM2_p08_noUncertain_TxR.mat
+  p08: 2910 samples -> 572 samples (9.5 min)
+all_CPTMEM2_p09_noUncertain_TxR.mat
+  p09: 3321 samples -> 653 samples (10.9 min)
+all_CPTMEM2_p10_noUncertain_TxR.mat
+  p10: 2223 samples -> 437 samples (7.3 min)
+all_CPTMEM2_p11_noUncertain_TxR.mat
+  p11: 2293 samples -> 451 samples (7.5 min)
+all_CPTMEM2_p12_noUncertain_TxR.mat
+  p12: 2774 samples -> 545 samples (9.1 min)
+all_CPTMEM2_p15_noUncertain_TxR.mat
+  p15: 2600 samples -> 511 samples (8.5 min)
+all_CPTMEM2_p16_noUncertain_TxR.mat
+  p16: 2201 samples -> 433 samples (7.2 min)
+all_CPTMEM2_p17_noUncertain_TxR.mat
+  p17: 2566 samples -> 504 samples (8.4 min)
+all_CPTMEM2_p18_noUncertain_TxR.mat
+  p18: 2065 samples -> 406 samples (6.8 min)
+all_CPTMEM2_p19_noUncertain_TxR.mat
+  p19: 2387 samples -> 469 samples (7.8 min)
+all_CPTMEM2_p20_noUncertain_TxR.mat
+  p20: 2802 samples -> 551 samples (9.2 min)
+all_CPTMEM2_p21_noUncertain_TxR.mat
+  p21: 2975 samples -> 585 samples (9.8 min)
+all_CPTMEM2_p22_noUncertain_TxR.mat
+  p22: 2693 samples -> 529 samples (8.8 min)
+all_CPTMEM2_p23_noUncertain_TxR.mat
+  p23: 3381 samples -> 665 samples (11.1 min)
+all_CPTMEM2_p24_noUncertain_TxR.mat
+  p24: 2635 samples -> 518 samples (8.6 min)
+Channel count: 50 | Target length: 300 sec
+Included 21 subjects: p01, p02, p03, p05, p06, p07, p08, p09, p10, p11, p12, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24
+Output: 300x50x21 (T x R x S)
+Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/4_resampled/all_CPTMEM2_zhbo_TxRxS.mat
+Done: Section 5 [task=CPTMEM2]
+Data: 300x50x21
+Computing ISC...
+subj 1
+subj 2
+subj 3
+subj 4
+subj 5
+subj 6
+subj 7
+subj 8
+subj 9
+subj 10
+subj 11
+subj 12
+subj 13
+subj 14
+subj 15
+subj 16
+subj 17
+subj 18
+subj 19
+subj 20
+subj 21
+
+Index       SubjID    Mean ISC
+-----------------------------------
+1           p01       -0.0296
+2           p02       -0.0557
+3           p03       -0.0144
+4           p05       0.0648
+5           p06       0.1279
+6           p07       0.1311
+7           p08       0.0227
+8           p09       0.0326
+9           p10       0.0818
+10          p11       0.0824
+11          p12       0.0547
+12          p15       -0.0585
+13          p16       -0.0010
+14          p17       -0.0598
+15          p18       0.0436
+16          p19       0.0119
+17          p20       -0.0466
+18          p21       -0.0038
+19          p22       0.0943
+20          p23       0.0266
+21          p24       0.0424
+Grand mean ISC: 0.0261
+ISC results saved.
+
+************************************************************
+*** REVIEW ISC TABLE ABOVE.                            ***
+*** Update exclS_NNW in b2_exclude-fnirs.m            ***
+*** then submit submit_b2_exclude-fnirs.sbatch         ***
+************************************************************
+Done: Section 6 [task=CPTMEM2]

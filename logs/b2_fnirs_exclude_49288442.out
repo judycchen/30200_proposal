@@ -1,0 +1,91 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 3 (9.14.0.2286388) 64-bit (glnxa64)
+                                May 25, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Task: NNW
+Subject index mapping for NNW:
+  index 1 = p01
+  index 2 = p02
+  index 3 = p03
+  index 4 = p04
+  index 5 = p06
+  index 6 = p07
+  index 7 = p08
+  index 8 = p09
+  index 9 = p10
+  index 10 = p11
+  index 11 = p12
+  index 12 = p14
+  index 13 = p15
+  index 14 = p16
+  index 15 = p17
+  index 16 = p18
+  index 17 = p19
+  index 18 = p20
+  index 19 = p21
+  index 20 = p22
+  index 21 = p23
+  index 22 = p24
+  index 23 = p25
+
+NNW: nS=23, excluding [13  23], keeping 21 subjects
+Kept: p01, p02, p03, p04, p06, p07, p08, p09, p10, p11, p12, p14, p16, p17, p18, p19, p20, p21, p22, p23, p24
+Output: 889x50x21 (T x R x S)
+Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/5_excluded/all_NNW_zhbo_TxRxS.mat
+Done: Section 7 [task=NNW]
+
+Data: 889x50x21 (T x R x S)
+Computing ISC...
+subj 1
+subj 2
+subj 3
+subj 4
+subj 5
+subj 6
+subj 7
+subj 8
+subj 9
+subj 10
+subj 11
+subj 12
+subj 13
+subj 14
+subj 15
+subj 16
+subj 17
+subj 18
+subj 19
+subj 20
+subj 21
+
+Post-exclusion subject ISC:
+  p01: 0.0824
+  p02: 0.0282
+  p03: 0.0218
+  p04: 0.0089
+  p06: 0.1391
+  p07: 0.0737
+  p08: 0.1023
+  p09: 0.1674
+  p10: 0.0188
+  p11: 0.1523
+  p12: 0.1098
+  p14: 0.0141
+  p16: 0.0405
+  p17: 0.0210
+  p18: 0.0789
+  p19: 0.0310
+  p20: 0.0774
+  p21: 0.2159
+  p22: 0.1441
+  p23: 0.0328
+  p24: 0.1032
+Grand mean ISC: 0.0792
+ISC results saved to: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/5_excluded/all_NNW_zhbo_TxRxS.mat
+Done: Section 8 [task=NNW]

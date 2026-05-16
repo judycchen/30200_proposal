@@ -1,0 +1,10 @@
+{Error: File:
+/project/ycleong/users/judycchen/prediction-proj/scripts/h_roi_brain_viz.m
+Line: 107 Column: 1
+Function definitions in a script must appear at the end of the file.
+Move all statements after the "render_roi_figure" function definition to before
+the first local function definition.
+
+Error in run (line 91)
+evalin('caller', strcat(script, ';'));
+} 

@@ -1,0 +1,36 @@
+function AtlasViewerGUI_enableDisable(handles)
+global atlasViewer
+
+digpts       = atlasViewer.digpts;
+refpts       = atlasViewer.refpts;
+probe        = atlasViewer.probe;
+headsurf     = atlasViewer.headsurf;
+fwmodel      = atlasViewer.fwmodel;
+imgrecon     = atlasViewer.imgrecon;
+labelssurf   = atlasViewer.labelssurf;
+
+
+if refpts.isempty(refpts)
+    q = MenuBox('Warning: No reference points were found for this subject''s head. Do you want to select reference points?', {'YES','NO'});
+    if q==1
+        FindRefptsGUI();
+    end
+end
+
+
+if isempty(digpts.refpts.pos) || isempty(refpts.pos) || isempty(headsurf.mesh.vertices)
+    set(handles.menuItemRegisterAtlasToDigpts,'enable','off')
+else
+    set(handles.menuItemRegisterAtlasToDigpts,'enable','on')
+end
+
+% Set the GUI controls for post-probe-registration controls, 
+% like fw model, image recon, hb overlay, 
+updateGuiControls_AfterProbeRegistration(probe, fwmodel, imgrecon, labelssurf);
+
+if ~isempty(atlasViewer.dataTree)
+    set(handles.editCondition, 'string',atlasViewer.dataTree.currElem.CondNames, 'value',1,'enable','on');
+else
+    set(handles.editCondition, 'enable','off');
+end
+

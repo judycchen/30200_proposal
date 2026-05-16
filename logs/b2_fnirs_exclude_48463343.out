@@ -1,0 +1,87 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 3 (9.14.0.2286388) 64-bit (glnxa64)
+                                May 25, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Task: Nback
+Subject index mapping for Nback:
+  index 1 = p01
+  index 2 = p02
+  index 3 = p03
+  index 4 = p04
+  index 5 = p05
+  index 6 = p06
+  index 7 = p07
+  index 8 = p08
+  index 9 = p09
+  index 10 = p10
+  index 11 = p11
+  index 12 = p12
+  index 13 = p13
+  index 14 = p14
+  index 15 = p15
+  index 16 = p16
+  index 17 = p17
+  index 18 = p18
+  index 19 = p19
+  index 20 = p20
+  index 21 = p21
+
+Nback: nS=21, excluding [17], keeping 20 subjects
+Kept: p01, p02, p03, p04, p05, p06, p07, p08, p09, p10, p11, p12, p13, p14, p15, p16, p18, p19, p20, p21
+Output: 300x42x20 (T x R x S)
+Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/5_excluded/all_Nback_zhbo_TxRxS.mat
+Done: Section 7 [task=Nback]
+
+Data: 300x42x20 (T x R x S)
+Computing ISC...
+subj 1
+subj 2
+subj 3
+subj 4
+subj 5
+subj 6
+subj 7
+subj 8
+subj 9
+subj 10
+subj 11
+subj 12
+subj 13
+subj 14
+subj 15
+subj 16
+subj 17
+subj 18
+subj 19
+subj 20
+
+Post-exclusion subject ISC:
+  p01: 0.0009
+  p02: -0.0071
+  p03: 0.0829
+  p04: 0.0213
+  p05: 0.0095
+  p06: 0.0810
+  p07: -0.0490
+  p08: 0.0245
+  p09: -0.0437
+  p10: -0.0435
+  p11: 0.0944
+  p12: 0.0093
+  p13: 0.1046
+  p14: -0.0147
+  p15: -0.0489
+  p16: -0.0206
+  p18: 0.0500
+  p19: 0.0659
+  p20: -0.0403
+  p21: 0.0256
+Grand mean ISC: 0.0151
+ISC results saved to: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/5_excluded/all_Nback_zhbo_TxRxS.mat
+Done: Section 8 [task=Nback]

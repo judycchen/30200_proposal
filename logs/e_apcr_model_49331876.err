@@ -1,0 +1,10 @@
+/project/ycleong/users/judycchen/prediction-proj/scripts/e_apcr_model.py:124: RuntimeWarning: Mean of empty slice
+  col_means = np.nanmean(X, axis=0)
+/project/ycleong/users/judycchen/prediction-proj/scripts/e_apcr_model.py:124: RuntimeWarning: Mean of empty slice
+  col_means = np.nanmean(X, axis=0)
+/project/ycleong/users/judycchen/prediction-proj/scripts/e_apcr_model.py:124: RuntimeWarning: Mean of empty slice
+  col_means = np.nanmean(X, axis=0)
+/project/ycleong/users/judycchen/prediction-proj/scripts/e_apcr_model.py:124: RuntimeWarning: Mean of empty slice
+  col_means = np.nanmean(X, axis=0)
+/project/ycleong/users/judycchen/prediction-proj/scripts/e_apcr_model.py:124: RuntimeWarning: Mean of empty slice
+  col_means = np.nanmean(X, axis=0)

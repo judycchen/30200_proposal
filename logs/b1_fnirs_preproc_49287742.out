@@ -1,0 +1,482 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 3 (9.14.0.2286388) 64-bit (glnxa64)
+                                May 25, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Params loaded. Task: NNW (folder suffix: _006)
+Found 25 subject folders.
+
+--- p01 | Task NNW ---
+  Loaded: 4913 samples @ 5.086 Hz (965.9 sec)
+  Using trigger file: 2026-01-30_006_fixed_lsl.tri
+  Start trigger (val=1) at sample 80 (15.53 sec)
+  End trigger (val=2) at sample 4620 (908.13 sec)
+  Extracted: samples 80:4620 (892.8 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p01_TxM.mat
+
+--- p02 | Task NNW ---
+  Loaded: 4729 samples @ 5.086 Hz (929.8 sec)
+  Using trigger file: 2026-02-05_006_fixed_lsl.tri
+  Start trigger (val=1) at sample 102 (19.86 sec)
+  End trigger (val=2) at sample 4646 (913.24 sec)
+  Extracted: samples 102:4646 (893.6 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p02_TxM.mat
+
+--- p03 | Task NNW ---
+  Loaded: 4859 samples @ 5.086 Hz (955.3 sec)
+  Using trigger file: 2026-02-05_006_fixed_lsl.tri
+  Start trigger (val=1) at sample 65 (12.58 sec)
+  End trigger (val=2) at sample 4619 (907.94 sec)
+  Extracted: samples 65:4619 (895.5 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p03_TxM.mat
+
+--- p04 | Task NNW ---
+  Loaded: 4768 samples @ 5.086 Hz (937.4 sec)
+  Using trigger file: 2026-02-06_004_fixed_lsl.tri
+  Start trigger (val=1) at sample 120 (23.40 sec)
+  End trigger (val=2) at sample 4664 (916.78 sec)
+  Extracted: samples 120:4664 (893.6 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p04_TxM.mat
+
+--- p05 | Task NNW ---
+  Loaded: 1738 samples @ 5.086 Hz (341.7 sec)
+  Using trigger file: 2026-02-06_014_fixed_lsl.tri
+  Start trigger (val=1) at sample 62 (11.99 sec)
+  End trigger (val=2) at sample 1804 (354.48 sec)
+  Extracted: samples 62:1738 (329.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p05_TxM.mat
+
+--- p06 | Task NNW ---
+  Loaded: 4698 samples @ 5.086 Hz (923.7 sec)
+  Using trigger file: 2026-02-07_006_fixed_lsl.tri
+  Start trigger (val=1) at sample 53 (10.22 sec)
+  End trigger (val=2) at sample 4603 (904.79 sec)
+  Extracted: samples 53:4603 (894.8 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p06_TxM.mat
+
+--- p07 | Task NNW ---
+  Loaded: 5011 samples @ 5.086 Hz (985.2 sec)
+  Using trigger file: 2026-02-08_006_fixed_lsl.tri
+  Start trigger (val=1) at sample 53 (10.22 sec)
+  End trigger (val=2) at sample 4607 (905.58 sec)
+  Extracted: samples 53:4607 (895.5 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p07_TxM.mat
+
+--- p08 | Task NNW ---
+  Loaded: 4723 samples @ 5.086 Hz (928.6 sec)
+  Using trigger file: 2026-02-08_006_fixed_lsl.tri
+  Start trigger (val=1) at sample 61 (11.80 sec)
+  End trigger (val=2) at sample 4616 (907.35 sec)
+  Extracted: samples 61:4616 (895.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p08_TxM.mat
+
+--- p09 | Task NNW ---
+  Loaded: 4726 samples @ 5.086 Hz (929.2 sec)
+  Using trigger file: 2026-02-09_006_fixed_lsl.tri
+  Start trigger (val=1) at sample 63 (12.19 sec)
+  End trigger (val=2) at sample 4628 (909.71 sec)
+  Extracted: samples 63:4628 (897.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p09_TxM.mat
+
+--- p10 | Task NNW ---
+  Loaded: 4705 samples @ 5.086 Hz (925.0 sec)
+  Using trigger file: 2026-02-10_014_fixed_lsl.tri
+  Start trigger (val=1) at sample 57 (11.01 sec)
+  End trigger (val=2) at sample 4597 (903.61 sec)
+  Extracted: samples 57:4597 (892.8 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p10_TxM.mat
+
+--- p11 | Task NNW ---
+  Loaded: 4746 samples @ 5.086 Hz (933.1 sec)
+  Using trigger file: 2026-02-11_017_fixed_lsl.tri
+  Start trigger (val=1) at sample 55 (10.62 sec)
+  End trigger (val=2) at sample 4601 (904.40 sec)
+  Extracted: samples 55:4601 (894.0 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p11_TxM.mat
+
+--- p12 | Task NNW ---
+  Loaded: 4732 samples @ 5.086 Hz (930.3 sec)
+  Using trigger file: 2026-02-13_006_fixed_lsl.tri
+  Start trigger (val=1) at sample 61 (11.80 sec)
+  End trigger (val=2) at sample 4654 (914.82 sec)
+  Extracted: samples 61:4654 (903.2 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p12_TxM.mat
+
+--- p13 | Task NNW ---
+  Loaded: 353 samples @ 5.086 Hz (69.4 sec)
+  Using trigger file: 2026-02-19_007_lsl.tri
+  Start trigger (val=1) at sample 98 (19.07 sec)
+  End trigger (val=2) at sample 134 (26.15 sec)
+  Extracted: samples 98:134 (7.3 sec)
+  WARNING: only 7.3 sec < 300 sec min, skipping.
+
+--- p14 | Task NNW ---
+  Loaded: 4928 samples @ 5.086 Hz (968.9 sec)
+  Using trigger file: 2026-02-19_014_lsl.tri
+  Start trigger (val=1) at sample 172 (33.62 sec)
+  End trigger (val=2) at sample 4696 (923.07 sec)
+  Extracted: samples 172:4696 (889.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p14_TxM.mat
+
+--- p15 | Task NNW ---
+  Loaded: 4686 samples @ 5.086 Hz (921.3 sec)
+  Using trigger file: 2026-02-20_006_lsl.tri
+  Start trigger (val=1) at sample 67 (12.98 sec)
+  End trigger (val=2) at sample 4591 (902.43 sec)
+  Extracted: samples 67:4591 (889.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p15_TxM.mat
+
+--- p16 | Task NNW ---
+  Loaded: 4915 samples @ 5.086 Hz (966.3 sec)
+  Using trigger file: 2026-02-20_012_lsl.tri
+  Start trigger (val=1) at sample 278 (54.46 sec)
+  End trigger (val=2) at sample 4802 (943.92 sec)
+  Extracted: samples 278:4802 (889.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p16_TxM.mat
+
+--- p17 | Task NNW ---
+  Loaded: 5263 samples @ 5.086 Hz (1034.7 sec)
+  Using trigger file: 2026-02-22_006_lsl.tri
+  Start trigger (val=1) at sample 103 (20.05 sec)
+  End trigger (val=2) at sample 4627 (909.51 sec)
+  Extracted: samples 103:4627 (889.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p17_TxM.mat
+
+--- p18 | Task NNW ---
+  Loaded: 5038 samples @ 5.086 Hz (990.5 sec)
+  Using trigger file: 2026-03-26_006_lsl.tri
+  Start trigger (val=1) at sample 242 (47.38 sec)
+  End trigger (val=2) at sample 4766 (936.84 sec)
+  Extracted: samples 242:4766 (889.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p18_TxM.mat
+
+--- p19 | Task NNW ---
+  Loaded: 4746 samples @ 5.086 Hz (933.1 sec)
+  Using trigger file: 2026-03-26_006_lsl.tri
+  Start trigger (val=1) at sample 80 (15.53 sec)
+  End trigger (val=2) at sample 4604 (904.99 sec)
+  Extracted: samples 80:4604 (889.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p19_TxM.mat
+
+--- p20 | Task NNW ---
+  Loaded: 5045 samples @ 5.086 Hz (991.9 sec)
+  Using trigger file: 2026-03-27_006_lsl.tri
+  Start trigger (val=1) at sample 105 (20.45 sec)
+  End trigger (val=2) at sample 4629 (909.90 sec)
+  Extracted: samples 105:4629 (889.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p20_TxM.mat
+
+--- p21 | Task NNW ---
+  Loaded: 4849 samples @ 5.086 Hz (953.4 sec)
+  Using trigger file: 2026-03-29_006_lsl.tri
+  Start trigger (val=1) at sample 102 (19.86 sec)
+  End trigger (val=2) at sample 4626 (909.31 sec)
+  Extracted: samples 102:4626 (889.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p21_TxM.mat
+
+--- p22 | Task NNW ---
+  Loaded: 4764 samples @ 5.086 Hz (936.6 sec)
+  Using trigger file: 2026-04-09_006_lsl.tri
+  Start trigger (val=1) at sample 106 (20.64 sec)
+  End trigger (val=2) at sample 4630 (910.10 sec)
+  Extracted: samples 106:4630 (889.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p22_TxM.mat
+
+--- p23 | Task NNW ---
+  Loaded: 4821 samples @ 5.086 Hz (947.8 sec)
+  Using trigger file: 2026-04-13_006_lsl.tri
+  Start trigger (val=1) at sample 86 (16.71 sec)
+  End trigger (val=2) at sample 4610 (906.17 sec)
+  Extracted: samples 86:4610 (889.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p23_TxM.mat
+
+--- p24 | Task NNW ---
+  Loaded: 4740 samples @ 5.086 Hz (931.9 sec)
+  Using trigger file: 2026-04-19_006_lsl.tri
+  Start trigger (val=1) at sample 96 (18.68 sec)
+  End trigger (val=2) at sample 4620 (908.13 sec)
+  Extracted: samples 96:4620 (889.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p24_TxM.mat
+
+--- p25 | Task NNW ---
+  Loaded: 4737 samples @ 5.086 Hz (931.3 sec)
+  Using trigger file: 2026-04-19_016_lsl.tri
+  Start trigger (val=1) at sample 95 (18.48 sec)
+  End trigger (val=2) at sample 4619 (907.94 sec)
+  Extracted: samples 95:4619 (889.7 sec)
+  Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/1_extracted/all_NNW_p25_TxM.mat
+
+Done: Section 2 [task=NNW]
+Found 24 files for task NNW
+
+all_NNW_p01_TxM.mat
+  SCR: 42 standard channels skipped (bad short channel neighbor)
+  Saved: all_NNW_p01_TxM.mat
+
+all_NNW_p02_TxM.mat
+  Saved: all_NNW_p02_TxM.mat
+
+all_NNW_p03_TxM.mat
+  Saved: all_NNW_p03_TxM.mat
+
+all_NNW_p04_TxM.mat
+  Saved: all_NNW_p04_TxM.mat
+
+all_NNW_p05_TxM.mat
+  Saved: all_NNW_p05_TxM.mat
+
+all_NNW_p06_TxM.mat
+  Saved: all_NNW_p06_TxM.mat
+
+all_NNW_p07_TxM.mat
+  Saved: all_NNW_p07_TxM.mat
+
+all_NNW_p08_TxM.mat
+  Saved: all_NNW_p08_TxM.mat
+
+all_NNW_p09_TxM.mat
+  Saved: all_NNW_p09_TxM.mat
+
+all_NNW_p10_TxM.mat
+  SCR: 5 standard channels skipped (bad short channel neighbor)
+  Saved: all_NNW_p10_TxM.mat
+
+all_NNW_p11_TxM.mat
+  Saved: all_NNW_p11_TxM.mat
+
+all_NNW_p12_TxM.mat
+  Saved: all_NNW_p12_TxM.mat
+
+all_NNW_p14_TxM.mat
+  Saved: all_NNW_p14_TxM.mat
+
+all_NNW_p15_TxM.mat
+  Saved: all_NNW_p15_TxM.mat
+
+all_NNW_p16_TxM.mat
+  Saved: all_NNW_p16_TxM.mat
+
+all_NNW_p17_TxM.mat
+  Saved: all_NNW_p17_TxM.mat
+
+all_NNW_p18_TxM.mat
+  Saved: all_NNW_p18_TxM.mat
+
+all_NNW_p19_TxM.mat
+  SCR: 5 standard channels skipped (bad short channel neighbor)
+  Saved: all_NNW_p19_TxM.mat
+
+all_NNW_p20_TxM.mat
+  Saved: all_NNW_p20_TxM.mat
+
+all_NNW_p21_TxM.mat
+  Saved: all_NNW_p21_TxM.mat
+
+all_NNW_p22_TxM.mat
+  Saved: all_NNW_p22_TxM.mat
+
+all_NNW_p23_TxM.mat
+  Saved: all_NNW_p23_TxM.mat
+
+all_NNW_p24_TxM.mat
+  Saved: all_NNW_p24_TxM.mat
+
+all_NNW_p25_TxM.mat
+  Saved: all_NNW_p25_TxM.mat
+
+Done: Section 3 [task=NNW]
+Found 24 files for task NNW
+all_NNW_p01_TxM.mat
+  QA: 36/50 channels pass (raw), 36/50 channels pass (z-scored)
+  Saved: all_NNW_p01_noUncertain_TxR
+all_NNW_p02_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p02_noUncertain_TxR
+all_NNW_p03_TxM.mat
+  QA: 46/50 channels pass (raw), 46/50 channels pass (z-scored)
+  Saved: all_NNW_p03_noUncertain_TxR
+all_NNW_p04_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p04_noUncertain_TxR
+all_NNW_p05_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p05_noUncertain_TxR
+all_NNW_p06_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p06_noUncertain_TxR
+all_NNW_p07_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p07_noUncertain_TxR
+all_NNW_p08_TxM.mat
+  QA: 49/50 channels pass (raw), 49/50 channels pass (z-scored)
+  Saved: all_NNW_p08_noUncertain_TxR
+all_NNW_p09_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p09_noUncertain_TxR
+all_NNW_p10_TxM.mat
+  QA: 46/50 channels pass (raw), 46/50 channels pass (z-scored)
+  Saved: all_NNW_p10_noUncertain_TxR
+all_NNW_p11_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p11_noUncertain_TxR
+all_NNW_p12_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p12_noUncertain_TxR
+all_NNW_p14_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p14_noUncertain_TxR
+all_NNW_p15_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p15_noUncertain_TxR
+all_NNW_p16_TxM.mat
+  QA: 49/50 channels pass (raw), 49/50 channels pass (z-scored)
+  Saved: all_NNW_p16_noUncertain_TxR
+all_NNW_p17_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p17_noUncertain_TxR
+all_NNW_p18_TxM.mat
+  QA: 49/50 channels pass (raw), 49/50 channels pass (z-scored)
+  Saved: all_NNW_p18_noUncertain_TxR
+all_NNW_p19_TxM.mat
+  QA: 45/50 channels pass (raw), 45/50 channels pass (z-scored)
+  Saved: all_NNW_p19_noUncertain_TxR
+all_NNW_p20_TxM.mat
+  QA: 39/50 channels pass (raw), 39/50 channels pass (z-scored)
+  Saved: all_NNW_p20_noUncertain_TxR
+all_NNW_p21_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p21_noUncertain_TxR
+all_NNW_p22_TxM.mat
+  QA: 47/50 channels pass (raw), 47/50 channels pass (z-scored)
+  Saved: all_NNW_p22_noUncertain_TxR
+all_NNW_p23_TxM.mat
+  QA: 49/50 channels pass (raw), 49/50 channels pass (z-scored)
+  Saved: all_NNW_p23_noUncertain_TxR
+all_NNW_p24_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p24_noUncertain_TxR
+all_NNW_p25_TxM.mat
+  QA: 50/50 channels pass (raw), 50/50 channels pass (z-scored)
+  Saved: all_NNW_p25_noUncertain_TxR
+
+Done: Section 4 [task=NNW]
+Found 24 files for task NNW
+all_NNW_p01_noUncertain_TxR.mat
+  p01: 4541 samples -> 893 samples (14.9 min)
+all_NNW_p02_noUncertain_TxR.mat
+  p02: 4545 samples -> 894 samples (14.9 min)
+all_NNW_p03_noUncertain_TxR.mat
+  p03: 4555 samples -> 896 samples (14.9 min)
+all_NNW_p04_noUncertain_TxR.mat
+  p04: 4545 samples -> 894 samples (14.9 min)
+all_NNW_p05_noUncertain_TxR.mat
+  p05: 1677 samples -> 330 samples (5.5 min)
+all_NNW_p06_noUncertain_TxR.mat
+  p06: 4551 samples -> 895 samples (14.9 min)
+all_NNW_p07_noUncertain_TxR.mat
+  p07: 4555 samples -> 896 samples (14.9 min)
+all_NNW_p08_noUncertain_TxR.mat
+  p08: 4556 samples -> 896 samples (14.9 min)
+all_NNW_p09_noUncertain_TxR.mat
+  p09: 4566 samples -> 898 samples (15.0 min)
+all_NNW_p10_noUncertain_TxR.mat
+  p10: 4541 samples -> 893 samples (14.9 min)
+all_NNW_p11_noUncertain_TxR.mat
+  p11: 4547 samples -> 894 samples (14.9 min)
+all_NNW_p12_noUncertain_TxR.mat
+  p12: 4594 samples -> 903 samples (15.1 min)
+all_NNW_p14_noUncertain_TxR.mat
+  p14: 4525 samples -> 890 samples (14.8 min)
+all_NNW_p15_noUncertain_TxR.mat
+  p15: 4525 samples -> 890 samples (14.8 min)
+all_NNW_p16_noUncertain_TxR.mat
+  p16: 4525 samples -> 890 samples (14.8 min)
+all_NNW_p17_noUncertain_TxR.mat
+  p17: 4525 samples -> 890 samples (14.8 min)
+all_NNW_p18_noUncertain_TxR.mat
+  p18: 4525 samples -> 890 samples (14.8 min)
+all_NNW_p19_noUncertain_TxR.mat
+  p19: 4525 samples -> 890 samples (14.8 min)
+all_NNW_p20_noUncertain_TxR.mat
+  p20: 4525 samples -> 890 samples (14.8 min)
+all_NNW_p21_noUncertain_TxR.mat
+  p21: 4525 samples -> 890 samples (14.8 min)
+all_NNW_p22_noUncertain_TxR.mat
+  p22: 4525 samples -> 890 samples (14.8 min)
+all_NNW_p23_noUncertain_TxR.mat
+  p23: 4525 samples -> 890 samples (14.8 min)
+all_NNW_p24_noUncertain_TxR.mat
+  p24: 4525 samples -> 890 samples (14.8 min)
+all_NNW_p25_noUncertain_TxR.mat
+  p25: 4525 samples -> 890 samples (14.8 min)
+Channel count: 50 | Target length: 889 sec
+  Skipping p05: only 330 sec < 889 sec target
+Included 23 subjects: p01, p02, p03, p04, p06, p07, p08, p09, p10, p11, p12, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25
+Output: 889x50x23 (T x R x S)
+Saved: /project/ycleong/users/judycchen/prediction-proj/data/b_fnirs-preproc/4_resampled/all_NNW_zhbo_TxRxS.mat
+Done: Section 5 [task=NNW]
+Data: 889x50x23
+Computing ISC...
+subj 1
+subj 2
+subj 3
+subj 4
+subj 5
+subj 6
+subj 7
+subj 8
+subj 9
+subj 10
+subj 11
+subj 12
+subj 13
+subj 14
+subj 15
+subj 16
+subj 17
+subj 18
+subj 19
+subj 20
+subj 21
+subj 22
+subj 23
+
+Index       SubjID    Mean ISC
+-----------------------------------
+1           p01       0.0812
+2           p02       0.0166
+3           p03       0.0318
+4           p04       0.0047
+5           p06       0.1256
+6           p07       0.0754
+7           p08       0.0980
+8           p09       0.1563
+9           p10       0.0207
+10          p11       0.1408
+11          p12       0.1023
+12          p14       0.0066
+13          p15       -0.0112
+14          p16       0.0417
+15          p17       0.0255
+16          p18       0.0834
+17          p19       0.0353
+18          p20       0.0746
+19          p21       0.2018
+20          p22       0.1244
+21          p23       0.0484
+22          p24       0.0880
+23          p25       -0.0171
+Grand mean ISC: 0.0676
+ISC results saved.
+
+************************************************************
+*** REVIEW ISC TABLE ABOVE.                            ***
+*** Update exclS_NNW in b2_exclude-fnirs.m            ***
+*** then submit submit_b2_exclude-fnirs.sbatch         ***
+************************************************************
+Done: Section 6 [task=NNW]
