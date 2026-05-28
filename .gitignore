@@ -3,3 +3,14 @@ data/d_apcr-model_newsubj_pca75/
 logs/
 results/e_visualization_newsubj_pca75/
 macs_30200_overleaf-zip/
+scripts/j_train_final_model.py
+scripts/k_parse_timing_behavior.py
+scripts/l_apply_model_tasks.py
+scripts/m_task_glm_contrast.py
+scripts/n_pred_fc_cpm.py
+scripts/phase0_audit.py
+scripts/submit_j_train_final_model.sbatch
+scripts/submit_k_parse_timing_behavior.sbatch
+scripts/submit_l_apply_model_tasks.sbatch
+scripts/submit_m_task_glm_contrast.sbatch
+scripts/submit_n_pred_fc_cpm.sbatch
