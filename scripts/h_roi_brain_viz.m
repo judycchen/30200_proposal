@@ -35,8 +35,9 @@ clear all; clc;
 % Set FRONTAL_ONLY = true to visualize the frontal-channels-only run.
 % Both flags can be combined.
 
-FRONTAL_ONLY = false;
-PCA75        = true;
+FRONTAL_ONLY  = false;
+PCA75         = true;
+NEW_SUBJ_ONLY = true;
 
 %% ── paths ────────────────────────────────────────────────────────────────────
 
@@ -44,8 +45,9 @@ BASE     = "/project/ycleong/users/judycchen/prediction-proj";
 HELPERS  = fullfile(BASE, "scripts/helpers");
 
 out_suffix = "";
-if FRONTAL_ONLY; out_suffix = strcat(out_suffix, "_frontal"); end
-if PCA75;        out_suffix = strcat(out_suffix, "_pca75");   end
+if FRONTAL_ONLY;  out_suffix = strcat(out_suffix, "_frontal"); end
+if NEW_SUBJ_ONLY; out_suffix = strcat(out_suffix, "_newsubj"); end
+if PCA75;         out_suffix = strcat(out_suffix, "_pca75");   end
 
 OUT_DIR   = fullfile(BASE, strcat("results/e_visualization", out_suffix, "/roi"));
 MODEL_DIR = fullfile(BASE, strcat("data/d_apcr-model", out_suffix));

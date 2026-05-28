@@ -54,7 +54,8 @@ np.random.seed(86)
 # dropping bilateral temporal/parietal channels (ch 10-23, 42-49 in 1-based numbering).
 # Outputs go to d_apcr-model_frontal/ instead of d_apcr-model/.
 
-FRONTAL_ONLY = False
+FRONTAL_ONLY  = False
+NEW_SUBJ_ONLY = True   # True → keep only p28+ subjects; outputs go to d_apcr-model_newsubj_pca75/
 
 # 0-indexed positions within the 42-channel standard array that are frontal (y > -30mm)
 FRONTAL_CH_IDX_42 = [0, 1, 2, 3, 4, 5, 6, 7, 20, 21, 22, 23,
@@ -66,7 +67,7 @@ BASE       = "/project/ycleong/users/judycchen/prediction-proj"
 FNIRS_FILE = os.path.join(BASE, "data/b_fnirs-preproc/5_excluded/all_NNW_zhbo_TxRxS.mat")
 FMRI_FILE  = os.path.join(BASE, "data/a_fmri-roi-ts/bold_TxRxS.npy")
 FMRI_MEAN  = os.path.join(BASE, "data/a_fmri-roi-ts/bold_groupmean_TxR.npy")
-_out_suffix = "_frontal" if FRONTAL_ONLY else ""
+_out_suffix = ("_frontal" if FRONTAL_ONLY else "") + ("_newsubj" if NEW_SUBJ_ONLY else "")
 OUT_DIR    = os.path.join(BASE, f"data/d_apcr-model{_out_suffix}_pca75")
 os.makedirs(OUT_DIR, exist_ok=True)
 
@@ -92,6 +93,15 @@ standard_ch_mask[SHORT_CH_IDX] = False
 
 fnirs_mat    = sio.loadmat(FNIRS_FILE)
 zhbo_raw     = fnirs_mat['zhbo_TxRxS']                         # (T, 50, nS) or (T, 42, nS)
+subj_ids     = fnirs_mat['subj_ids_included'].flatten()
+
+if NEW_SUBJ_ONLY:
+    new_mask = np.array([int(str(s).strip("[]'p")) >= 28 for s in subj_ids])
+    zhbo_raw = zhbo_raw[:, :, new_mask]
+    subj_ids = subj_ids[new_mask]
+    kept_ids = [str(s).strip("[]'") for s in subj_ids]
+    print(f"NEW_SUBJ_ONLY: {new_mask.sum()} subjects kept: {kept_ids}")
+
 if zhbo_raw.shape[1] == 50:
     zhbo_TxRxS = zhbo_raw[DROP_FIRST_N:, standard_ch_mask, :]  # (886, 42, nS)
 else:

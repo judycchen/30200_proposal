@@ -1,0 +1,8 @@
+% data_availability.tex — Full proposal draft, Week 8
+
+\section{Data Availability and Reproducibility}
+
+All analysis code for this project is publicly available at \url{https://github.com/judycchen/30200_proposal}. The repository is organized as a numbered pipeline: fMRI ROI extraction (step a), fNIRS preprocessing and exclusion (steps b1--b2), fNIRS-fMRI spatial correlation and control analyses (steps c--c3), MNI brain visualization (step d), aPCR model training and prediction (step e), permutation-based significance testing (step f), ISFC analysis (step g), and ROI and network visualization (steps h--i). Each step has a matching Slurm batch submission file for execution on the University of Chicago Research Computing Center's Midway3 cluster. Python dependencies include NumPy, scikit-learn, nibabel, nilearn, and BrainIAK; MATLAB scripts use the NIRS Brain AnalyzIR Toolbox \citep{santosa2018}.
+
+The fNIRS data were collected under an approved IRB protocol at the University of Chicago and will be made available upon reasonable request following study completion, in accordance with institutional data sharing policies. The fMRI dataset (N\,=\,59, NNW movie-watching) was obtained from a collaborating lab and is available through the original data sharing agreement. Preprocessed behavioral data (trial-level reaction times and accuracy) will be shared alongside the analysis code upon publication. Preprocessed fNIRS data are excluded from the repository due to file size and are stored on the Midway3 cluster.
+

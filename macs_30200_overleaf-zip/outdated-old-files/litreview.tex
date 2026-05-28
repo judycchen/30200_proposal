@@ -1,0 +1,191 @@
+\section*{Literature Review}
+
+Understanding individual differences in attention has long been a goal of cognitive
+neuroscience, but studying it rigorously requires measuring the brain. Attention and
+working memory are among the most consequential cognitive capacities humans possess.
+They predict academic achievement, occupational performance, and vulnerability to
+clinical conditions including ADHD, with large and reliable effect sizes across the
+population \parencite{kofler2013}. These capacities are also not randomly distributed.
+Sustained attention and executive function are meaningfully associated with socioeconomic
+status, with children from lower-income backgrounds showing consistent disadvantages in
+working memory and attentional control that are reflected not only in behavior but in the
+structure and function of prefrontal and hippocampal brain regions \parencite{farah2006,
+noble2015}. The implication is that the populations most affected by attentional
+difficulties are also the most likely to be excluded from the scientific infrastructure
+that studies those difficulties. fMRI scanners, the dominant tool for imaging attention
+in the brain, are expensive, physically fixed, and concentrated in wealthy, Western,
+academic institutions, which means that research in low- and middle-income countries,
+non-laboratory community settings, and resource-limited clinical environments is
+structurally underrepresented \parencite{burns2019}. The present project is organized
+around the question of whether that constraint can be relaxed through the combination of
+portable neuroimaging and naturalistic experimental design.
+
+Functional near-infrared spectroscopy (fNIRS) is the most promising candidate for
+portable neuroimaging. It works by shining near-infrared light (typically 650 to 900 nm)
+through the scalp and detecting changes in the absorption of oxygenated (HbO) and
+deoxygenated (HbR) hemoglobin in cortical tissue, which is the same hemodynamic signal
+that fMRI measures, though restricted to cortical surface regions accessible to light
+\parencite{kamran2016}. Unlike fMRI, fNIRS requires no magnetic field or
+radio-frequency pulses, tolerates participant movement, and can be deployed in any
+setting without special infrastructure. These properties have allowed it to reach
+populations and contexts previously inaccessible to neuroimaging. \textcite{burns2019}
+demonstrated that portable fNIRS could measure meaningful individual differences in
+prefrontal responses to persuasive messages in a native Arabic-speaking sample recruited
+in Jordan, a population almost entirely absent from social neuroscience, and replicated
+established findings about medial and ventromedial prefrontal cortex involvement in
+persuasion. This work directly establishes that fNIRS prefrontal signals are sensitive
+enough to detect socially meaningful individual differences outside laboratory settings,
+which is a core assumption of the present project. The limitation fNIRS cannot overcome
+is depth. It is physically incapable of measuring medial prefrontal cortex, subcortical
+structures, or any brain region far from the scalp-mounted optodes. Because attention
+depends on a distributed network that includes the hippocampus, thalamus, basal ganglia,
+and portions of cingulate cortex, none of which fNIRS can reach, a portable surface-only
+recording cannot by itself provide the kind of whole-brain picture that motivates
+research on neural individual differences.
+
+The key insight motivating this project is that the limitation of surface-only
+measurement does not have to be fatal. Deep brain activity can be inferred from cortical
+activity through learned functional connectivity relationships. \textcite{liu2015}
+provided early proof of concept by scanning 17 participants simultaneously with fNIRS
+and fMRI during multiple cognitive tasks and showing that activity in deep structures,
+including the insula, hippocampus, and caudate, could be significantly predicted from
+surface cortical fNIRS signals, with top-quintile predictions achieving correlations of
+approximately $r = 0.70$. The neural basis for this inferential approach is well
+established: deep and subcortical regions are functionally coupled with surface cortical
+regions, so their activity tends to rise and fall together. A computational model that
+has learned what the fMRI signal looks like when the cortical signal looks a certain way
+can exploit this coupling. The limitation in \citeauthor{liu2015}'s work was the
+requirement that the same individuals be scanned simultaneously in both modalities, which
+is expensive, logistically demanding, and ultimately defeats the purpose of building a
+portable tool. The methodological breakthrough that resolved this came from naturalistic
+paradigms, which provide a way to align signals across separately scanned participant
+groups.
+
+The logic of naturalistic alignment rests on a substantial literature on inter-subject
+correlation (ISC), which refers to the phenomenon whereby independently scanned
+individuals who experience the same naturalistic stimulus produce temporally synchronized
+brain responses across a wide network of regions \parencite{hasson2004, hasson2010,
+nastase2019}. When people watch the same film, their auditory cortices respond to
+dialogue in near-lockstep, their prefrontal regions engage with narrative tension at
+similar moments, and their default mode networks activate and deactivate in patterns that
+are recognizably consistent across individuals \parencite{hasson2010}. This shared
+temporal structure is largely absent during structured cognitive tasks, where individual
+differences in strategy, arousal, and performance introduce person-specific variance that
+overwhelms the shared signal \parencite{nastase2019}. \textcite{finn2021} showed that
+this property of naturalistic stimuli has direct practical consequences: functional
+connectivity measured during movie watching yields substantially more accurate predictions
+of trait-level behavioral phenotypes than connectivity measured during rest, with highly
+social clips producing reliable predictions in under three minutes of data. Naturalistic
+viewing, in other words, does not merely produce strong shared responses. It also
+amplifies the behaviorally relevant structure of individual differences in brain
+organization. For this project, the relevant implication is that a movie-watching session
+provides the ideal calibration paradigm because the shared temporal structure of the film
+creates a strong ISC signal that makes it possible to train a cross-dataset mapping
+between fNIRS and fMRI participants who were never scanned together, while the
+within-person variability around that shared signal may encode individual cognitive
+profiles.
+
+\textcite{gao2025} operationalized this insight in the aPCR framework. By training an
+adapted principal component regression model on fNIRS and fMRI data collected during
+naturalistic TV episode viewing, across separate participant groups who watched the same
+content, they demonstrated that whole-brain fMRI dynamics could be significantly
+predicted from prefrontal surface signals alone in 66 of 122 brain regions ($q < 0.05$),
+including subcortical and medial regions physically inaccessible to fNIRS. The model
+also generalized to an independent naturalistic dataset recorded during a different TV
+series, establishing that the learned cross-modal mapping captures stimulus-general
+structure rather than overfitting to one particular narrative \parencite{gao2025}. The
+\citeauthor{gao2025} framework was designed and tested entirely within naturalistic
+paradigms, with both training and test data coming from movie or TV episode viewing.
+The present project takes the harder step of asking whether a model calibrated on
+naturalistic data can transfer to structured cognitive tasks, where the stimulus-driven
+ISC that supported model training is largely absent. This is the key untested assumption,
+and the answer to it determines whether naturalistic calibration can serve as a
+general-purpose tool for portable neurocognitive assessment.
+
+Evaluating whether the cross-task transfer is meaningful requires a framework for what
+meaningful brain predictions during attention tasks should look like. Two intersecting
+literatures are relevant here. First, there is strong evidence that the frontoparietal
+network, and particularly the dorsal attention network (DAN) and the cognitive control
+network (CONT), functions as a set of flexible hubs whose global connectivity patterns
+shift more dramatically across task demands than any other network in the brain
+\parencite{cole2013}. In a study spanning 64 different cognitive tasks, \textcite{cole2013}
+found that frontoparietal regions could identify the current task from their connectivity
+patterns alone, and that this held even for tasks the person had never practiced before,
+which suggests that these hubs encode task demands in a generalizable format. Because the
+fNIRS cap used in this project covers precisely these prefrontal and lateral parietal
+regions, the model has direct access to the surface signals most likely to encode
+task-relevant structure. Building on this, \textcite{braun2015} showed in 344
+participants that how much frontal networks reorganized their communication patterns
+during the n-back task predicted both working memory accuracy and scores on external
+neuropsychological measures of cognitive flexibility, suggesting that individual
+differences in frontal system reconfiguration during a cognitive challenge carry
+behavioral consequences that generalize well beyond the task itself. This finding bears
+directly on Phase 5 of the present project: if the aPCR-predicted brain patterns
+preserve this frontoparietal reconfiguration structure, they should correlate with
+behavioral performance on the n-back and CPT. More broadly, \textcite{tavor2016}
+demonstrated in the Human Connectome Project that task-evoked brain activity during
+seven different cognitive paradigms could be accurately predicted from resting-state
+connectivity alone, without any task data from the individuals being predicted. The
+parallel to the present project is close. Just as resting-state connectivity encodes
+something like a neural blueprint for how a person will respond to cognitive demands,
+a naturalistic fNIRS session may encode enough of an individual's brain organization to
+allow meaningful predictions of their task-evoked dynamics.
+
+The second relevant literature addresses how behavioral performance during cognitive
+tasks can be used to index the quality of attention regulation. Reaction time variability
+(RTV) refers to the trial-to-trial inconsistency in how quickly a person responds across
+a sustained performance task, and it is among the most robust behavioral markers of
+attentional control. A meta-analysis of 319 studies by \textcite{kofler2013} found that
+individuals with ADHD showed significantly greater RTV than typically developing peers
+(Hedges' $g = 0.76$ for children, $g = 0.46$ for adults). This elevation was more
+discriminating than mean response speed, persisted across task types including the n-back
+and CPT, and was substantially reduced by stimulant treatment ($g = -0.74$) but
+unaffected by behavioral interventions. The choice of RTV as the primary
+individual-differences index in this project, rather than task accuracy or mean response
+time, is deliberate. Accuracy is susceptible to floor and ceiling effects: in healthy
+young adults, 1-back performance is near-perfect and fails to differentiate individuals.
+Mean reaction time, for its part, conflates speed-accuracy tradeoffs with attentional
+stability. RTV, by contrast, captures moment-to-moment fluctuations in the efficiency
+of cognitive processing and remains discriminating even when average performance is high,
+because it reflects the regularity of attentional engagement across trials rather than
+its central tendency. Critically, RTV is not a marker only of clinical disorder.
+\textcite{macdonald2009} reviewed evidence suggesting that intraindividual variability
+in cognitive performance tracks the health and efficiency of underlying neural systems,
+specifically the stability of dopaminergic neuromodulation, the integrity of white matter
+connectivity, and the regulatory strength of prefrontal cortex, and that these
+relationships hold across the full range of healthy adults. The theoretical account
+connecting RTV to brain dynamics was provided by \textcite{sonugabarke2007}, who
+proposed the default mode interference hypothesis. During goal-directed tasks, the
+default mode network (DMN) is normally suppressed to allow task-relevant networks to
+operate without competition. When this suppression fails periodically, the DMN briefly
+reactivates and disrupts processing of the current stimulus, producing an attentional
+lapse that manifests as an unusually slow response on that trial. High RTV is, on this
+account, a behavioral fingerprint of poor DMN suppression. The DMN is also precisely
+one of the networks where the \textcite{gao2025} framework shows strong fNIRS-to-fMRI
+predictions, which is not coincidental. It creates a testable prediction for the present
+project: participants with higher RTV should show more intrusion of rest-like, DMN-active
+dynamics during their task fNIRS recordings, making their task signals structurally
+different from movie-watching signals and potentially altering the model's ability to
+generate meaningful task-period predictions.
+
+Taken together, these three bodies of literature converge on the design of the present
+project and jointly justify its specific choices. The fNIRS-to-fMRI translation
+literature establishes the computational feasibility of cross-modal inference from
+cortical surface signals. The naturalistic paradigm literature explains why a movie
+provides the ideal training context: it generates the inter-subject correlation necessary
+for cross-dataset model training and amplifies individual variation in brain organization
+in ways that resting-state recordings do not \parencite{gao2025, hasson2010, finn2021}.
+The RTV literature links a simple behavioral measure, one that requires no imaging at
+all, to the neural dynamics the model is trying to predict, providing a concrete
+individual-differences target for evaluating whether the cross-task predictions are
+behaviorally meaningful \parencite{kofler2013}. The equity framing is not rhetorical.
+The same reason the project uses movie-watching rather than fMRI, namely that it
+requires no scanner, is the reason the approach could matter beyond this study. If a
+brief, passive, naturalistic fNIRS session produces predictions that correlate with
+attentional performance, then the field has a candidate method for conducting
+whole-brain-equivalent attention research in schools, clinics, and communities where MRI
+access is not available. These are precisely the settings and populations that the
+existing literature, with its structural dependence on scanner infrastructure, has
+historically excluded \parencite{farah2006, burns2019, noble2015}. What follows
+describes how the two datasets are combined and analyzed to test whether that candidate
+method delivers.

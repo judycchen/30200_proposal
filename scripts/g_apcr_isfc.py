@@ -45,12 +45,13 @@ np.random.seed(86)
 # ── variant flag ──────────────────────────────────────────────────────────────
 # Must match the FRONTAL_ONLY setting used in e_apcr_model.py.
 
-FRONTAL_ONLY = False
+FRONTAL_ONLY  = False
+NEW_SUBJ_ONLY = True   # must match e_apcr_model.py
 
 # ── paths ─────────────────────────────────────────────────────────────────────
 
 BASE      = "/project/ycleong/users/judycchen/prediction-proj"
-_out_suffix = "_frontal" if FRONTAL_ONLY else ""
+_out_suffix = ("_frontal" if FRONTAL_ONLY else "") + ("_newsubj" if NEW_SUBJ_ONLY else "")
 MODEL_DIR = os.path.join(BASE, f"data/d_apcr-model{_out_suffix}_pca75")
 FMRI_FILE = os.path.join(BASE, "data/a_fmri-roi-ts/bold_TxRxS.npy")
 

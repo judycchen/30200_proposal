@@ -25,7 +25,7 @@ exclS_CPT1    = [16];
 exclS_CPTMEM1 = [16];
 exclS_CPT2    = [17];
 exclS_CPTMEM2 = [1, 2, 12, 14, 17, 18];   % ISC < -0.02: p01(-0.042), p02(-0.077), p15(-0.036), p17(-0.029), p20(-0.044), p21(-0.023)
-exclS_NNW     = [13, 23];   % ISC < 0: p15(-0.0112), p25(-0.0171)
+exclS_NNW     = [12, 13, 24];   % ISC ~0: p14(0.0075), p15(0.0050), p27(0.0009)
 exclS_all = {exclS_Nback, exclS_CPT1, exclS_CPTMEM1, exclS_CPT2, exclS_CPTMEM2, exclS_NNW};
 
 % ── paths ─────────────────────────────────────────────────────────────

@@ -39,8 +39,9 @@ np.random.seed(86)
 # Set FRONTAL_ONLY = True to visualize the frontal-channels-only run.
 # Both flags can be combined.
 
-FRONTAL_ONLY = False
-PCA75        = True
+FRONTAL_ONLY  = False
+PCA75         = True
+NEW_SUBJ_ONLY = True   # must match e_apcr_model.py
 
 # ── paths ─────────────────────────────────────────────────────────────────────
 
@@ -48,7 +49,9 @@ BASE   = "/project/ycleong/users/judycchen/prediction-proj"
 MASKS  = ("/project/ycleong/users/judycchen/fnirs_fmri_models/data/sherlock"
           "/fmri/masks/Yeo_17N_114_Brainnetome_subcortical_8")
 
-_out_suffix = ("_frontal" if FRONTAL_ONLY else "") + ("_pca75" if PCA75 else "")
+_out_suffix = (("_frontal" if FRONTAL_ONLY else "")
+               + ("_newsubj" if NEW_SUBJ_ONLY else "")
+               + ("_pca75" if PCA75 else ""))
 MODEL_DIR = os.path.join(BASE, f"data/d_apcr-model{_out_suffix}")
 NET_DIR   = os.path.join(BASE, f"results/e_visualization{_out_suffix}/network")
 ISFC_DIR  = os.path.join(BASE, f"results/e_visualization{_out_suffix}/isfc")
@@ -97,8 +100,8 @@ print("Loading ISFC results...")
 isfc_data   = sio.loadmat(os.path.join(MODEL_DIR, "apcr_isfc.mat"))
 true_isfc   = isfc_data['true_isfc_RxR']            # (122, 122) raw asymmetric mean ISFC
 pred_isfc   = isfc_data['pred_isfc_RxR']            # (122, 122) raw asymmetric mean ISFC
-isfc_r      = float(isfc_data['isfc_similarity'])
-isfc_p      = float(isfc_data['isfc_pval'])
+isfc_r      = float(np.array(isfc_data['isfc_similarity']).flat[0])
+isfc_p      = float(np.array(isfc_data['isfc_pval']).flat[0])
 print(f"ISFC matrix similarity: r={isfc_r:.3f}, p={isfc_p:.3f}")
 
 # ══════════════════════════════════════════════════════════════════════════════
